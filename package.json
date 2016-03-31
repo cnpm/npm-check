@@ -1,5 +1,5 @@
 {
-  "name": "npm-check",
+  "name": "cnpm-check",
   "version": "5.0.0",
   "description": "Check for outdated, incorrect, and unused dependencies.",
   "main": "lib",

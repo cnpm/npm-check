@@ -1,8 +1,8 @@
-## npm-check  [![Build Status](http://img.shields.io/travis/dylang/npm-check.svg)](https://travis-ci.org/dylang/npm-check) [![npm-check](http://img.shields.io/npm/dm/npm-check.svg)](https://www.npmjs.org/package/npm-check)
+## cnpm-check  [![Build Status](http://img.shields.io/travis/dylang/npm-check.svg)](https://travis-ci.org/dylang/npm-check) [![npm-check](http://img.shields.io/npm/dm/npm-check.svg)](https://www.npmjs.org/package/npm-check)
+
+**Fork npm-check to use https://npm.taobao.org/ China npm registry. **
 
 > Check for outdated, incorrect, and unused dependencies.
-
-
 
 <img width="796" alt="npm-check -u" src="https://cloud.githubusercontent.com/assets/51505/9569917/96947fea-4f48-11e5-9783-2d78077256f2.png">
 
@@ -35,7 +35,7 @@
 
 ### On the command line
 
-This is how you should use `npm-check`. 
+This is how you should use `npm-check`.
 
 #### Install
 
@@ -61,7 +61,7 @@ The result should look like the screenshot, or something nice when your packages
 ```
 Usage
   $ npm-check <path> <options>
-  
+
 Path
   Where to check. Defaults to current directory. Use -g for checking global modules.
 
@@ -118,20 +118,20 @@ By default `npm-check` will look at packages listed as `dependencies` and `devDe
 This option will let it ignore outdated and unused checks for packages listed as `devDependencies`.
 
 ###### -E, --save-exact
-  
+
 Install packages using `--save-exact`, meaning exact versions will be saved in package.json.
- 
+
 Applies to both `dependencies` and `devDependencies`.
 
 ###### --color, --no-color
-  
+
 Enable or disable color support.
 
 By default `npm-check` uses colors if they are available.
 
 ###### --emoji, --no-emoji
-  
-Enable or disable emoji support. Useful for terminals that don't support them. 
+
+Enable or disable emoji support. Useful for terminals that don't support them.
 
 
 
@@ -181,7 +181,7 @@ Ignore `devDependencies`.
 Override where `npm-check` checks.
 
 ####### saveExact `boolean`
- 
+
 * default is `false`
 
 Save exact versions to package.json
@@ -257,4 +257,3 @@ Screenshots are [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) (Attr
 ***
 _Generated using [grunt-readme](https://github.com/assemble/grunt-readme) with [grunt-templates-dylang](https://github.com/dylang/grunt-templates-dylang) on Tuesday, March 29, 2016._
 _To make changes to this document look in `/templates/readme/`
-
