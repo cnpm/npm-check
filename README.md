@@ -41,7 +41,7 @@ This is how you should use `npm-check`.
 
 
 ```bash
-$ npm install -g npm-check
+$ npm install -g cnpm-check
 ```
 
 #### Use
