@@ -79,7 +79,7 @@
     "meow": "^3.7.0",
     "merge-options": "0.0.64",
     "node-emoji": "^1.0.3",
-    "npminstall": "^1.6.1",
+    "npminstall": "^2.30.1",
     "ora": "^0.2.1",
     "package-json": "^2.0.1",
     "path-exists": "^2.1.0",
