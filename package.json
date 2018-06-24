@@ -12,7 +12,9 @@
     "transpile": "babel lib --out-dir lib-es5",
     "prepublish": "npm run transpile",
     "repos": "grunt repos # required for grunt readme to run",
-    "readme": "grunt readme"
+    "readme": "grunt readme",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "xo": {
     "space": 4,
@@ -87,7 +89,8 @@
     "semver-diff": "^2.0.0",
     "text-table": "^0.2.0",
     "throat": "^2.0.2",
-    "update-notifier": "^0.6.3"
+    "update-notifier": "^0.6.3",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
@@ -99,5 +102,6 @@
     "grunt-templates-dylang": "^1.0.9",
     "load-grunt-tasks": "^3.3.0",
     "xo": "^0.13.0"
-  }
+  },
+  "snyk": true
 }
